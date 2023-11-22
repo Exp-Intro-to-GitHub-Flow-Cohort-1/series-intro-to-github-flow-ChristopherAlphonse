@@ -72,5 +72,5 @@ jobs:
         with:
           token: ${{ secrets.GLOBAL_CLASSROOM_ORG_TOKEN }}
           from_step: 2
-          to_step: 3
+          to_step: X
           branch_name: my-first-branch
