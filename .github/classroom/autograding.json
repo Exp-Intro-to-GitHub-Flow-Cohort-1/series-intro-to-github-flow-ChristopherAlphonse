@@ -8,17 +8,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "Step 2 Commit a File",
-      "setup": "sleep 20",
-      "run": "[ $(cat .github/steps/-step.txt) -ge 2 ] || [ $(cat .github/steps/-step.txt) = X ]",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
+      "points": 2
     },
     {
       "name": "Step 3 Open a Pull Request",
