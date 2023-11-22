@@ -7,27 +7,27 @@
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 5,
       "points": 2
     },
     {
       "name": "Step 3 Open a Pull Request",
-      "setup": "sleep 20",
+      "setup": "sleep 10",
       "run": "[ $(cat .github/steps/-step.txt) -ge 3 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 15,
       "points": 1
     },
     {
       "name": "Step 4 Merge Your Pull Request",
-      "setup": "sleep 20",
+      "setup": "sleep 10",
       "run": "[ $(cat .github/steps/-step.txt) -ge 4 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 5,
       "points": 1
     }
   ]
